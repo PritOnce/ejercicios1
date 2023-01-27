@@ -7,11 +7,7 @@ public class P23 {
         Scanner sr=new Scanner(System.in);
         dia= sr.nextInt();
         switch (dia){
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
+            case 1,2,3,4,5:
                 System.out.println("Es laboral");
                 break;
             case 6:
